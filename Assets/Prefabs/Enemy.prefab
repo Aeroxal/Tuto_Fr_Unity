@@ -138,7 +138,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.04385519, y: 0.10145438}
+  m_Offset: {x: 0.11262655, y: 0.10145438}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -149,7 +149,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6453428, y: 0.11828637}
+  m_Size: {x: 0.5078001, y: 0.11828637}
   m_EdgeRadius: 0
 --- !u!114 &8652393386913812690
 MonoBehaviour:
@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToDestroy: {fileID: 8652393385360678281}
+  killSound: {fileID: 8300000, guid: 8913e6eb0878b1b4fba4c2710dd767f0, type: 3}
 --- !u!1 &8652393387049423794
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +293,7 @@ MonoBehaviour:
   waypoints:
   - {fileID: 8652393385984422115}
   - {fileID: 8652393386587542021}
-  damageOnCollision: 20
+  damageOnCollision: 100
   graphics: {fileID: 8652393387049423797}
 --- !u!95 &8652393387049423799
 Animator:

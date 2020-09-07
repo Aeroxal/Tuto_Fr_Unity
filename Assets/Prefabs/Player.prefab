@@ -122,7 +122,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 250
+  climbSpeed: 200
   jumpForce: 350
+  isClimbing: 0
   groundCheck: {fileID: 3118206193115148580}
   groundCheckRadius: 0.4
   collisionLayers:
@@ -131,6 +133,7 @@ MonoBehaviour:
   rb: {fileID: 3118206192669996073}
   animator: {fileID: 3118206192669996076}
   spriteRenderer: {fileID: 3118206192669996075}
+  playerCollider: {fileID: 3118206192669996079}
 --- !u!95 &3118206192669996076
 Animator:
   serializedVersion: 3
@@ -185,6 +188,7 @@ MonoBehaviour:
   isInvicible: 0
   graphics: {fileID: 3118206192669996075}
   healthBar: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 4618c1f6c97072146b5c410d1461fb18, type: 3}
 --- !u!1 &3118206193115148581
 GameObject:
   m_ObjectHideFlags: 0
